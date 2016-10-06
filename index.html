@@ -4,16 +4,20 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<script src="./js/clmtrackr.min.js"></script>
-	<script src="./js/model_pca_20_svm_emotionDetection.js"></script>
-	<script src="./js/app.js"></script>
+	<script src="./js/model_pca_20_svm.js"></script>
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	smile
 
-<video autoplay="true" id="videoElement">
- 
-</video>
+      <div id="container">
+     		<video id="video" autoplay width="368" height="288" type="video/webm"></video>
+
+		<canvas id="canvas" width="368" height="288"></canvas>
+		      </div>
+
+
+<p>Printing coordinates of the first 10 points in facial features:</p>
+      <p id="positions"></p>
 
 <!-- 	<script type="text/javascript">
   var videoInput = document.getElementById('videoElement');
@@ -22,6 +26,7 @@
   ctracker.init(pModel);
   ctracker.start(videoInput);
 </script> -->
+	<script src="./js/app.js"></script>
 
 </body>
 </html>
