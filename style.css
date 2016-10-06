@@ -17,3 +17,13 @@ canvas {
    width: 368;
    height: 288;
 }*/
+
+      #container {
+        position : relative;
+      }
+      
+      #canvas {
+        position : absolute;
+        left : 0;
+        top : 0;
+      }

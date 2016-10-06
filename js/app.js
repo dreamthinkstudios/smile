@@ -47,6 +47,10 @@
           ctracker.draw(canvasInput);
         }
         drawLoop();
+
+
+
+        
 // var videoInput = document.getElementById('inputVideo');
 
 // // Initialization
